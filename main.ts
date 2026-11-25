@@ -1,7 +1,7 @@
 // One-line office joke entry.
 import { mkdirSync, writeFileSync } from "node:fs";
 
-const LINE = "We opened a ticket to track the ticket that tracks who owns the ticket.";
+const LINE = "We nested one ticket under the ticket whose only job is tracking who owns the ticket.";
 
 const n = [...LINE].length;
 if (n < 1 || n > 200 || LINE.trim().length === 0) {
